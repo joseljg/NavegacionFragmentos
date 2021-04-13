@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.joseljg.proyectoempresa.MainActivity">
+    <item
+        android:id="@+id/menu_mostrarciudades"
+        android:orderInCategory="10"
+        android:icon="@drawable/c"
+        android:title="mostrar_ciudades"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_mostrarprovincias"
+        android:icon="@drawable/p"
+        android:orderInCategory="20"
+        android:title="mostrar_provincias"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_irhome"
+        android:orderInCategory="30"
+        android:title="ir_inicio"
+        app:showAsAction="never" />
+</menu>

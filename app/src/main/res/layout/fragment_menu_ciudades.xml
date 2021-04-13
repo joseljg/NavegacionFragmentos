@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".MenuCiudadesFragment">
+
+    <ImageButton
+        android:id="@+id/bt_ciudades"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/todo1"
+        android:scaleType="centerInside"
+        android:src="@drawable/c" />
+
+    <ImageButton
+        android:id="@+id/bt_provincias"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/todo2"
+        android:scaleType="centerInside"
+        android:src="@drawable/p" />
+</LinearLayout>

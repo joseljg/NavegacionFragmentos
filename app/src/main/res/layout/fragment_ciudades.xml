@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CiudadesFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_ciudades"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginStart="@dimen/margen1"
+        android:layout_marginLeft="@dimen/margen1"
+        android:layout_marginTop="@dimen/margen2"
+        android:layout_marginEnd="@dimen/margen1"
+        android:layout_marginRight="@dimen/margen1" />
+
+</FrameLayout>

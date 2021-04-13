@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MostrarDetalleProvinciaActivity">
+
+    <ImageView
+        android:id="@+id/img_detalle_provincia"
+        android:layout_width="135dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="@dimen/margen1"
+        android:layout_marginEnd="@dimen/margen1"
+        android:layout_marginRight="@dimen/margen1"
+        android:contentDescription="@string/descripcion_imagen2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bandera1" />
+
+    <TextView
+        android:id="@+id/txt_detalle_nombrep"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/nombre_provincia"
+        android:textSize="@dimen/tam_titulo"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_detalle_idprovinciap"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margen2"
+        android:text="@string/id_provincia"
+        android:textSize="@dimen/tam_letra2"
+        app:layout_constraintEnd_toEndOf="@+id/txt_detalle_nombrep"
+        app:layout_constraintStart_toStartOf="@+id/txt_detalle_nombrep"
+        app:layout_constraintTop_toBottomOf="@+id/txt_detalle_nombrep" />
+
+    <ImageView
+        android:id="@+id/img_atras_detalle_provincia"
+        android:layout_width="@dimen/ancho1_boton"
+        android:layout_height="@dimen/alto1_boton"
+        android:layout_marginTop="@dimen/margen2"
+        android:onClick="atras_detalle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_detalle_idprovinciap"
+        app:srcCompat="@drawable/atras1" />
+    
+</androidx.constraintlayout.widget.ConstraintLayout>
